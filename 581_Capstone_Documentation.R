@@ -9,8 +9,8 @@ library(quantmod)
 
 # datasets
 
-Tweet <- read.csv("C:/Users/Brian/Desktop/CSU/0.MIS_581/Datasets/Tweets/Tweet.csv")
-raw_partner_headlines <- read.csv("C:/Users/Brian/Desktop/CSU/0.MIS_581/Datasets/Headlines/raw_partner_headlines.csv")
+Tweet <- read.csv("Tweet.csv")
+raw_partner_headlines <- read.csv("raw_partner_headlines.csv")
 getSymbols("AAPL", src = "yahoo")
 getSymbols("GOOG", src = "yahoo")
 getSymbols("AMZN", src = "yahoo")
